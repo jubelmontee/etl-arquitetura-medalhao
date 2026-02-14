@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "nome": "Smartphone Galaxy S23",
+        "categoria": "Eletrônicos",
+        "preco": 3499.99,
+        "marca": "Samsung",
+        "descricao": "Smartphone com tela de 6.1 polegadas, 128GB de armazenamento",
+        "estoque": 45,
+        "avaliacao": 4.5,
+        "tags": ["smartphone", "android", "samsung", "5g"]
+    },
+    {
+        "id": 2,
+        "nome": "Notebook Dell Inspiron 15",
+        "categoria": "Eletrônicos",
+        "preco": 4999.90,
+        "marca": "Dell",
+        "descricao": "Notebook com processador Intel i7, 16GB RAM, 512GB SSD",
+        "estoque": 30,
+        "avaliacao": 4.7,
+        "tags": ["notebook", "dell", "windows", "i7"]
+    },
+    {
+        "id": 3,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "categoria": "Acessórios",
+        "preco": 299.99,
+        "marca": "JBL",
+        "descricao": "Fone de ouvido sem fio com cancelamento de ruído",
+        "estoque": 100,
+        "avaliacao": 4.3,
+        "tags": ["fone de ouvido", "bluetooth", "jbl", "áudio"]
+    },
+    {
+        "id": 4,
+        "nome": "Smart TV LG 55'' 4K",
+        "categoria": "Eletrônicos",
+        "preco": 2799.00,
+        "marca": "LG",
+        "descricao": "Smart TV com resolução 4K e sistema operacional webOS",
+        "estoque": 20,
+        "avaliacao": 4.8,
+        "tags": ["tv", "smart tv", "lg", "4k"]
+    },
+    {
+        "id": 5,
+        "nome": "Câmera Canon EOS Rebel T7",
+        "categoria": "Fotografia",
+        "preco": 2499.99,
+        "marca": "Canon",
+        "descricao": "Câmera DSLR com lente 18-55mm e 24.1 MP",
+        "estoque": 15,
+        "avaliacao": 4.6,
+        "tags": ["câmera", "canon", "fotografia", "dslr"]
+    },
+    {
+        "id": 6,
+        "nome": "Tablet Apple iPad Air",
+        "categoria": "Eletrônicos",
+        "preco": 3999.99,
+        "marca": "Apple",
+        "descricao": "Tablet com tela de 10.9 polegadas e chip A14 Bionic",
+        "estoque": 25,
+        "avaliacao": 4.9,
+        "tags": ["tablet", "apple", "ipad", "ios"]
+    },
+    {
+        "id": 7,
+        "nome": "Console PlayStation 5",
+        "categoria": "Games",
+        "preco": 4999.99,
+        "marca": "Sony",
+        "descricao": "Console de última geração com suporte a 4K e ray tracing",
+        "estoque": 10,
+        "avaliacao": 4.8,
+        "tags": ["console", "playstation", "ps5", "games"]
+    },
+    {
+        "id": 8,
+        "nome": "Monitor Gamer 27'' 144Hz",
+        "categoria": "Eletrônicos",
+        "preco": 1899.99,
+        "marca": "Acer",
+        "descricao": "Monitor gamer com resolução Full HD e taxa de atualização de 144Hz",
+        "estoque": 50,
+        "avaliacao": 4.6,
+        "tags": ["monitor", "gamer", "144hz", "acer"]
+    },
+    {
+        "id": 9,
+        "nome": "Teclado Mecânico RGB",
+        "categoria": "Acessórios",
+        "preco": 499.99,
+        "marca": "Razer",
+        "descricao": "Teclado mecânico com iluminação RGB personalizável",
+        "estoque": 60,
+        "avaliacao": 4.7,
+        "tags": ["teclado", "mecânico", "rgb", "razer"]
+    },
+    {
+        "id": 10,
+        "nome": "Mouse Gamer Logitech G502",
+        "categoria": "Acessórios",
+        "preco": 349.99,
+        "marca": "Logitech",
+        "descricao": "Mouse gamer com sensor de alta precisão e iluminação RGB",
+        "estoque": 80,
+        "avaliacao": 4.8,
+        "tags": ["mouse", "gamer", "logitech", "rgb"]
+    },
+    {
+        "id": 11,
+        "nome": "Smartwatch Apple Watch Series 8",
+        "categoria": "Eletrônicos",
+        "preco": 4299.99,
+        "marca": "Apple",
+        "descricao": "Relógio inteligente com monitoramento de saúde e fitness",
+        "estoque": 35,
+        "avaliacao": 4.9,
+        "tags": ["smartwatch", "apple", "fitness", "ios"]
+    },
+    {
+        "id": 12,
+        "nome": "Câmera GoPro HERO11",
+        "categoria": "Fotografia",
+        "preco": 2199.99,
+        "marca": "GoPro",
+        "descricao": "Câmera de ação com gravação em 5K e estabilização avançada",
+        "estoque": 40,
+        "avaliacao": 4.8,
+        "tags": ["câmera", "gopro", "ação", "5k"]
+    },
+    {
+        "id": 13,
+        "nome": "Caixa de Som Bluetooth JBL Flip 6",
+        "categoria": "Acessórios",
+        "preco": 599.99,
+        "marca": "JBL",
+        "descricao": "Caixa de som portátil com som potente e resistente à água",
+        "estoque": 70,
+        "avaliacao": 4.7,
+        "tags": ["caixa de som", "bluetooth", "jbl", "portátil"]
+    },
+    {
+        "id": 14,
+        "nome": "Smartphone iPhone 14 Pro",
+        "categoria": "Eletrônicos",
+        "preco": 8999.99,
+        "marca": "Apple",
+        "descricao": "Smartphone com tela Super Retina XDR e câmera de 48 MP",
+        "estoque": 20,
+        "avaliacao": 4.9,
+        "tags": ["smartphone", "apple", "iphone", "5g"]
+    },
+    {
+        "id": 15,
+        "nome": "Smart TV Samsung 65'' QLED",
+        "categoria": "Eletrônicos",
+        "preco": 5999.99,
+        "marca": "Samsung",
+        "descricao": "Smart TV com tecnologia QLED e resolução 4K",
+        "estoque": 15,
+        "avaliacao": 4.8,
+        "tags": ["tv", "smart tv", "samsung", "qled"]
+    },
+    {
+        "id": 16,
+        "nome": "Câmera Nikon D3500",
+        "categoria": "Fotografia",
+        "preco": 2999.99,
+        "marca": "Nikon",
+        "descricao": "Câmera DSLR com lente 18-55mm e 24.2 MP",
+        "estoque": 25,
+        "avaliacao": 4.6,
+        "tags": ["câmera", "nikon", "fotografia", "dslr"]
+    },
+    {
+        "id": 17,
+        "nome": "Fone de Ouvido Sony WH-1000XM5",
+        "categoria": "Acessórios",
+        "preco": 1499.99,
+        "marca": "Sony",
+        "descricao": "Fone de ouvido com cancelamento de ruído ativo e som de alta qualidade",
+        "estoque": 50,
+        "avaliacao": 4.9,
+        "tags": ["fone de ouvido", "bluetooth", "sony", "áudio"]
+    },
+    {
+        "id": 18,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "categoria": "Eletrônicos",
+        "preco": 3299.99,
+        "marca": "Lenovo",
+        "descricao": "Notebook com processador AMD Ryzen 5, 8GB RAM, 256GB SSD",
+        "estoque": 40,
+        "avaliacao": 4.5,
+        "tags": ["notebook", "lenovo", "ryzen", "windows"]
+    },
+    {
+        "id": 19,
+        "nome": "Smartphone Xiaomi Redmi Note 12",
+        "categoria": "Eletrônicos",
+        "preco": 1999.99,
+        "marca": "Xiaomi",
+        "descricao": "Smartphone com tela AMOLED de 6.67 polegadas e 128GB de armazenamento",
+        "estoque": 60,
+        "avaliacao": 4.6,
+        "tags": ["smartphone", "xiaomi", "android", "5g"]
+    },
+    {
+        "id": 20,
+        "nome": "Drone DJI Mini 3 Pro",
+        "categoria": "Eletrônicos",
+        "preco": 4999.99,
+        "marca": "DJI",
+        "descricao": "Drone compacto com câmera 4K e estabilização de imagem",
+        "estoque": 10,
+        "avaliacao": 4.8,
+        "tags": ["drone", "dji", "4k", "fotografia"]
+    }
+]
