@@ -25,7 +25,7 @@ def get_data(cep):
         return None
 
 user_path = "bronze/users.csv"
-df_users = pd.read_csv(user_path, sep = ',').head(20)
+df_users = pd.read_csv(user_path, sep = ',').head(300)
 
 
 cep_list = df_users['cep'].tolist() #tranforma uma colona em uma lista
