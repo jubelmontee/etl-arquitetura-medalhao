@@ -12,10 +12,12 @@ class DB:
         # ligação aberta com o banco de dados
         self.conn = psycopg2.connect(host=self.host, port=self.port, database=self.database, user=self.user, password=self.password)
     
-    def creat_table(self, table_name, df):
+    def create_table(self, table_name, columns):
         # cursor é um controle de exceução SQL
         cursor = self.conn.cursor()
-        cursor.execute(f"CREATE TABLE IF NOT EXISTS {table_name} ({', '.join(df.columns)})")
+        columns_with_types = [f"{col} TEXT" for col in columns]
+        cursor.execute(f"CREATE TABLE IF NOT EXISTS {table_name} ({', '.join(columns_with_types)})")
+        cursor = self.conn.cursor()
         self.conn.commit()
         cursor.close()
 
@@ -23,7 +25,9 @@ class DB:
         cursor = self.conn.cursor()
         # iterrows: retorna index e linha do dataframe, para cada linha do dataframe, insere os dados na tabela
         for index, row in df.iterrows():
-            cursor.execute(f"INSERT INTO {table_name} VALUES ({', '.join(row.values)})")
+            values = [str(v) if v is not None else None for v in row.values]
+            placeholders = ', '.join(['%s'] * len(values))
+            cursor.execute(f"INSERT INTO {table_name} VALUES ({placeholders})", values)
         self.conn.commit()
         cursor.close()
     
@@ -40,4 +44,3 @@ class DB:
 
     def close(self):
         self.conn.close()
-
